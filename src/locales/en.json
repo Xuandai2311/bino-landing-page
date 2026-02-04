@@ -1,75 +1,287 @@
 {
   "RootLayout": {
-    "home_link": "Home",
-    "about_link": "About",
-    "counter_link": "Counter",
-    "portfolio_link": "Portfolio",
-    "sign_in_link": "Sign in",
-    "sign_up_link": "Sign up"
+    "home": "Home",
+    "sign_in": "Sign in",
+    "sign_up": "Sign up"
   },
   "BaseTemplate": {
     "description": "Starter code for your Nextjs Boilerplate with Tailwind CSS",
     "made_with": "Made with <author></author>."
   },
   "Index": {
-    "meta_title": "Next.js Boilerplate Presentation",
-    "meta_description": "Next js Boilerplate is the perfect starter code for your project. Build your React application with the Next.js framework.",
-    "sponsors_title": "Sponsors"
+    "meta_title": "ERA MEDIA - Influencer Platform",
+    "meta_description": "Connecting brands with leading KOLs."
   },
-  "Counter": {
-    "meta_title": "Counter",
-    "meta_description": "An example of DB operation",
-    "security_powered_by": "Security, bot detection and rate limiting powered by"
+  "Header": {
+    "menu_items": {
+      "home": "Home",
+      "about": "About",
+      "kol": "KOL List",
+      "products": "Products",
+      "contact": "Contact"
+    },
+    "sign_in": "Sign in",
+    "sign_up": "Sign up",
+    "open-app": "Open app"
   },
-  "CounterForm": {
-    "presentation": "The counter is stored in the database and incremented by the value you provide.",
-    "label_increment": "Increment by",
-    "button_increment": "Increment",
-    "error_increment_range": "Value must be between 1 and 3"
+  "HeroSection": {
+    "highlight": "KOL—Brand",
+    "title": "Connect",
+    "subtitle": "Optimize your campaign effectiveness",
+    "description": "Find the right KOL, evaluate effectiveness, and collaborate quickly on a single platform. Hundreds of KOLs in diverse industries are ready to partner with your brand.",
+    "register_kol": "Register as a KOL",
+    "find-kol": "Find KOL now",
+    "trusted_by": "Trusted by 40+ clients"
   },
-  "CurrentCount": {
-    "count": "Count: {count}"
+  "Results": {
+    "connect_card": {
+      "title": "Quick Connection",
+      "description": "Search and filter KOLs by industry, platform, and customer file in seconds."
+    },
+    "generate_card": {
+      "title": "500M+",
+      "description": "Views Generated"
+    },
+    "conversion_effectiveness_card": {
+      "title": "Increase Conversion Effectiveness",
+      "description": "KOLs recommended based on data matching your product, optimizing costs and results."
+    },
+    "Social_card": {
+      "title": "Transparent & Clear",
+      "description": "Public information about KOLs, pricing, and effectiveness to help brands easily choose."
+    },
+    "retention_rate_card": {
+      "title": "85%",
+      "description": "Average audience retention rate"
+    },
+    "campaign_card": {
+      "title": "Simple Campaign Management",
+      "description": "Track progress, discuss, and approve content directly on the system."
+    }
   },
-  "About": {
-    "meta_title": "About",
-    "meta_description": "About page description",
-    "about_paragraph": "Welcome to our About page! We are a team of passionate individuals dedicated to creating amazing software.",
-    "translation_powered_by": "Translation powered by"
+  "KOL": {
+    "title": "KOL List",
+    "description": "List of KOLs",
+    "more_kol": "View <count>2.278</count> KOLs"
   },
-  "Portfolio": {
-    "meta_title": "Portfolio",
-    "meta_description": "Welcome to my portfolio page!",
-    "presentation": "Welcome to my portfolio page! Here you will find a carefully curated collection of my work and accomplishments. Through this portfolio, I'm to showcase my expertise, creativity, and the value I can bring to your projects.",
-    "portfolio_name": "Portfolio {name}",
-    "error_reporting_powered_by": "Error reporting powered by",
-    "coverage_powered_by": "Code coverage powered by"
+  "Products": {
+    "title": "Featured Products",
+    "description": "Discover featured products, attractive offers, and high commission rates for KOL/KOC.",
+    "more_product": "View <count>2.278</count> other products",
+    "product": {
+      "title": "Featured Products",
+      "category": {
+        "fashion": "Fashion",
+        "beauty": "Beauty",
+        "electronics": "Electronics"
+      },
+      "commission_rate": "% Commission"
+    }
   },
-  "PortfolioSlug": {
-    "meta_title": "Portfolio {slug}",
-    "meta_description": "Portfolio {slug} description",
-    "header": "Portfolio {slug}",
-    "content": "Created a set of promotional materials and branding elements for a corporate event. Crafted a visually unified theme, encompassing a logo, posters, banners, and digital assets. Integrated the client's brand identity while infusing it with a contemporary and innovative approach.",
-    "code_review_powered_by": "Code review powered by"
+  "PlatformSection": {
+    "title": "Countless products and KOLs on the platform",
+    "description": "Find and work with KOLs easily on one platform."
   },
-  "SignIn": {
-    "meta_title": "Sign in",
-    "meta_description": "Seamlessly sign in to your account with our user-friendly login process."
+  "ProcessSection": {
+    "title": "Cooperation Process",
+    "description": "Transparent, clear, and systematic cooperation process helps KOL/KOC and brands achieve the best results.",
+    "toggle_kol": "For KOL/KOC",
+    "toggle_business": "For businesses",
+    "steps": {
+      "kol": {
+        "step1": {
+          "title": "Define Goals & KOL/KOC Profile",
+          "details": {
+            "brand_clarify": "KOL needs to research:",
+            "goals": "Understand: brand values, product category, target audience, campaign goals...",
+            "kpi": "Review: brand reputation, previous campaigns, competitor analysis, market positioning...",
+            "kol_type": "Prepare: showcase portfolio, engagement metrics, content style samples, audience demographics.",
+            "check": "Verify: brand authenticity, product quality, campaign alignment with personal values.",
+            "output": "Result: Complete profile and portfolio ready for brand review."
+          }
+        },
+        "step2": {
+          "title": "Receive Outreach",
+          "details": {
+            "brand_clarify": "KOL receives:",
+            "goals": "Brief content: campaign objectives, product information, key messages, target audience...",
+            "kpi": "Requirements: content format, posting schedule, deliverables, approval process, deadlines...",
+            "kol_type": "Review: collaboration terms, exclusivity clauses, usage rights, payment structure.",
+            "check": "Evaluate: campaign fit, timeline feasibility, content requirements, brand guidelines.",
+            "output": "Result: Initial response with questions and availability confirmation."
+          }
+        },
+        "step3": {
+          "title": "Quote & Contract",
+          "details": {
+            "brand_clarify": "KOL prepares quote:",
+            "goals": "Pricing: base rate, additional deliverables, usage rights, exclusivity fees...",
+            "kpi": "Include: timeline breakdown, content formats, revision rounds, rush fees if applicable...",
+            "kol_type": "Negotiate: payment terms, milestone payments, cancellation policy, content ownership.",
+            "check": "Clarify: approval process, revision limits, posting requirements, performance expectations.",
+            "output": "Result: Final quote and signed contract agreement."
+          }
+        },
+        "step4": {
+          "title": "Build Script",
+          "details": {
+            "brand_clarify": "KOL creates content:",
+            "goals": "Content: follow brief guidelines, incorporate key messages, showcase product naturally...",
+            "kpi": "Deliverables: main post, stories, reels, or other formats as specified in contract...",
+            "kol_type": "Process: ideation, shooting, editing, caption writing, hashtag research.",
+            "check": "Review: brand compliance, message clarity, visual quality, engagement optimization.",
+            "output": "Result: Draft content ready for brand review and approval."
+          }
+        },
+        "step5": {
+          "title": "Production & Editing",
+          "details": {
+            "brand_clarify": "KOL reviews content:",
+            "goals": "Quality check: visual appeal, message accuracy, brand guideline compliance...",
+            "kpi": "Optimize: captions, hashtags, posting time, engagement hooks, call-to-action...",
+            "kol_type": "Edit: make adjustments, ensure authenticity, maintain personal style.",
+            "check": "Verify: all requirements met, no brand guideline violations, optimal engagement potential.",
+            "output": "Result: Edited content submitted for brand approval."
+          }
+        },
+        "step6": {
+          "title": "Publish",
+          "details": {
+            "brand_clarify": "KOL publishes:",
+            "goals": "Posting: scheduled time, correct platform, proper tagging, brand mentions...",
+            "kpi": "Engagement: respond to comments, share in stories, cross-post if required...",
+            "kol_type": "Monitor: initial engagement, comments, shares, saves, reach metrics.",
+            "check": "Ensure: all posting requirements met, brand tags correct, content live as scheduled.",
+            "output": "Result: Content published and live on all specified platforms."
+          }
+        },
+        "step7": {
+          "title": "Report Results",
+          "details": {
+            "brand_clarify": "KOL compiles report:",
+            "goals": "Metrics: reach, impressions, engagement rate, clicks, saves, shares...",
+            "kpi": "Analytics: audience demographics, peak engagement times, top performing content elements...",
+            "kol_type": "Document: screenshots, platform analytics, engagement breakdown, ROI insights.",
+            "check": "Verify: all metrics accurate, report format matches requirements, insights provided.",
+            "output": "Result: Complete performance report delivered to brand."
+          }
+        }
+      },
+      "business": {
+        "step1": {
+          "title": "Identify Target KOLs",
+          "details": {
+            "brand_clarify": "Business needs to define:",
+            "goals": "Campaign objectives: brand awareness, product launch, sales conversion, market penetration...",
+            "kpi": "Target metrics: reach, engagement rate, click-through rate, conversion rate, ROI...",
+            "kol_type": "Select: Macro KOLs for reach, Micro for engagement, Nano for authenticity, KOC for reviews.",
+            "check": "Evaluate: follower quality, content style, engagement authenticity, audience match, past performance.",
+            "output": "Result: Shortlist of 3-10 KOLs matching campaign criteria."
+          }
+        },
+        "step2": {
+          "title": "Send Brief",
+          "details": {
+            "brand_clarify": "Business prepares brief:",
+            "goals": "Include: product information, campaign objectives, key messages, target audience, brand voice...",
+            "kpi": "Specify: content formats, posting schedule, deliverables, approval process, deadlines...",
+            "kol_type": "Provide: product samples, brand guidelines, visual assets, reference materials, contact details.",
+            "check": "Review: brief completeness, clarity of requirements, realistic expectations, brand compliance.",
+            "output": "Result: Comprehensive brief document sent to selected KOLs for review."
+          }
+        },
+        "step3": {
+          "title": "Review Quote & Sign Contract",
+          "details": {
+            "brand_clarify": "Business evaluates quotes:",
+            "goals": "Compare: pricing, deliverables, timeline, exclusivity terms, usage rights...",
+            "kpi": "Negotiate: payment structure, milestone payments, cancellation terms, content ownership...",
+            "kol_type": "Finalize: contract terms, approval workflow, revision process, performance expectations.",
+            "check": "Verify: budget alignment, legal compliance, clear deliverables, payment schedule.",
+            "output": "Result: Signed contracts with selected KOLs, project kickoff initiated."
+          }
+        },
+        "step4": {
+          "title": "Review Draft Content",
+          "details": {
+            "brand_clarify": "Business reviews drafts:",
+            "goals": "Evaluate: brand guideline compliance, message accuracy, visual quality, engagement potential...",
+            "kpi": "Check: key messages included, product showcased correctly, call-to-action clear, hashtags appropriate...",
+            "kol_type": "Provide: feedback, revision requests, approval or request changes.",
+            "check": "Ensure: content meets brief requirements, brand standards, legal compliance, quality standards.",
+            "output": "Output: Approved content ready for publication or revision requests sent."
+          }
+        },
+        "step5": {
+          "title": "Approve Final Content",
+          "details": {
+            "brand_clarify": "Business finalizes approval:",
+            "goals": "Confirm: all revisions addressed, brand guidelines followed, quality standards met...",
+            "kpi": "Verify: posting schedule confirmed, platform requirements met, tagging and mentions correct...",
+            "kol_type": "Approve: final content, posting timeline, engagement strategy, cross-posting plan.",
+            "check": "Final check: legal clearance, brand compliance, message accuracy, visual quality.",
+            "output": "Result: Final approval granted, content cleared for publication."
+          }
+        },
+        "step6": {
+          "title": "Monitor Publishing",
+          "details": {
+            "brand_clarify": "Business tracks publication:",
+            "goals": "Monitor: posting time, platform presence, tagging accuracy, initial engagement...",
+            "kpi": "Track: real-time metrics, engagement rate, reach, impressions, comments, shares...",
+            "kol_type": "Observe: audience response, sentiment, questions, feedback, engagement patterns.",
+            "check": "Verify: all posting requirements met, brand mentions correct, engagement as expected.",
+            "output": "Result: Content live and performing, ongoing monitoring dashboard active."
+          }
+        },
+        "step7": {
+          "title": "Measure Results & Payment",
+          "details": {
+            "brand_clarify": "Business analyzes performance:",
+            "goals": "Measure: campaign KPIs, ROI, conversion rates, brand awareness lift, sales impact...",
+            "kpi": "Analyze: engagement metrics, audience insights, content performance, platform breakdown...",
+            "kol_type": "Process: final payments, performance bonuses if applicable, contract closure.",
+            "check": "Verify: all deliverables completed, performance targets met, payment terms fulfilled.",
+            "output": "Result: Complete campaign report, final payment, relationship maintained for future."
+          }
+        }
+      }
+    }
   },
-  "SignUp": {
-    "meta_title": "Sign up",
-    "meta_description": "Effortlessly create an account through our intuitive sign-up process."
-  },
-  "Dashboard": {
-    "meta_title": "Dashboard",
-    "hello_message": "Hello {email}!",
-    "alternative_message": "Need advanced features? Multi-tenancy & Teams, Roles & Permissions, Shadcn UI, End-to-End Typesafety with oRPC, Stripe Payment, Light / Dark mode. Try <url></url>."
-  },
-  "UserProfile": {
-    "meta_title": "User Profile"
-  },
-  "DashboardLayout": {
-    "dashboard_link": "Dashboard",
-    "user_profile_link": "Manage your account",
-    "sign_out": "Sign out"
+  "Footer": {
+    "resources": {
+      "title": "Resources",
+      "home": "Home",
+      "kol_list": "KOL List",
+      "products": "Products"
+    },
+    "developers": {
+      "title": "Developers",
+      "github": "GitHub",
+      "docs": "Docs",
+      "smart_contracts": "Smart Contracts"
+    },
+    "downloads": {
+      "title": "Downloads",
+      "portrait_mac": "Portrait for Mac",
+      "portrait_windows": "Portrait for Windows"
+    },
+    "platform": {
+      "title": "Platform",
+      "x": "X.com",
+      "farcaster": "Farcaster",
+      "bluesky": "Bluesky",
+      "discord": "Discord"
+    },
+    "support": {
+      "title": "Support & Contact",
+      "customer_care": "Customer care",
+      "complaints": "24/7 Complaints",
+      "hotline": "Hot online"
+    },
+    "copyright": "© Copyright belongs to ERA MEDIA 2025",
+    "system_status": "System status",
+    "privacy": "Privacy",
+    "terms": "Terms"
   }
 }

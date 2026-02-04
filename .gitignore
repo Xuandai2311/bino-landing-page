@@ -60,3 +60,9 @@ build-archive.log
 /test-results/
 /playwright-report/
 /playwright/.cache/
+
+!.env.example
+.env.*
+.dev.vars
+.open-next
+.wrangler

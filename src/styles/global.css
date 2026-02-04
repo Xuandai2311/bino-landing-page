@@ -1,3 +1,90 @@
-@layer theme, base, clerk, components, utilities; /* Ensure Clerk is compatible with Tailwind CSS v4 */
-
 @import 'tailwindcss';
+
+@layer theme, base, components, utilities;
+
+:root {
+  /* Font Families - Định nghĩa ở :root để đảm bảo áp dụng toàn cục */
+  --font-sans: 'Inter Tight', system-ui, sans-serif;
+  --font-playfair: 'Playfair Display', serif;
+}
+
+@theme {
+  /* Colors */
+  --color-background: #f1f1f1;
+  --color-primary-1: #9a1dff;
+  --color-primary-2: #ffb332;
+  --color-primary-3: #000131;
+  --color-hero-background-1: #e9cdfe;
+  --color-hero-background-2: #feebcd00;
+  --color-text-default: #101828;
+  --color-text-secondary: #717171;
+  --color-secondary-1: #08304ca6;
+  --color-secondary-red: #ff6468;
+  --color-secondary-yellow: #fdaf37;
+  --color-secondary-green: #e9f4d6;
+  --color-secondary-isabelline: #f7f2ee;
+  --color-secondary-isabellineOpacity0: #efeeea00;
+  --color-secondary-black80: #000000cc;
+  --color-secondary-black30: #00000033;
+  --color-secondary-pink: #c01048;
+  --color-lightbeige: #efeeea;
+  /* Font Sizes */
+  --text-32px: 32px;
+  --text-52px: 52px;
+
+  /* Font Families - Cũng định nghĩa trong @theme để Tailwind có thể sử dụng */
+  --font-sans: 'Inter Tight', system-ui, sans-serif;
+  --font-playfair: 'Playfair Display', serif;
+  --font-JetBrainsMono: 'JetBrains Mono', monospace;
+}
+
+@layer base {
+  /* Sử dụng CSS variables cho fonts */
+  body {
+    font-family: var(--font-sans);
+    color: var(--color-text-default);
+  }
+  html {
+    scroll-behavior: smooth;
+    background-color: var(--color-background);
+  }
+}
+
+@layer utilities {
+  /* Tạo utility classes cho fonts */
+  .font-playfair {
+    font-family: var(--font-playfair), serif;
+  }
+
+  .font-sans {
+    font-family: var(--font-sans), system-ui, sans-serif;
+  }
+
+  @keyframes scroll {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(calc(-100% / 3));
+    }
+  }
+
+  .animate-scroll {
+    animation: scroll 30s linear infinite;
+    will-change: transform;
+  }
+
+  /* .animate-scroll:hover {
+    animation-play-state: paused;
+  } */
+
+  /* Hide scrollbar but keep functionality */
+  .scrollbar-hide {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none; /* Chrome, Safari and Opera */
+  }
+}

@@ -1,0 +1,287 @@
+{
+  "RootLayout": {
+    "home": "Trang chủ",
+    "sign_in": "Đăng nhập",
+    "sign_up": "Đăng ký"
+  },
+  "BaseTemplate": {
+    "description": "Mã khởi động cho Next.js với Tailwind CSS",
+    "made_with": "Được tạo bởi <author></author>."
+  },
+  "Index": {
+    "meta_title": "ERA MEDIA - Influencer Platform",
+    "meta_description": "Kết nối thương hiệu với những KOL hàng đầu"
+  },
+  "Header": {
+    "menu_items": {
+      "home": "Trang chủ",
+      "about": "Giới thiệu",
+      "kol": "Danh sách KOL",
+      "products": "Sản phẩm",
+      "contact": "Liên hệ"
+    },
+    "sign_in": "Đăng nhập",
+    "sign_up": "Đăng ký",
+    "open-app": "Mở ứng dụng"
+  },
+  "HeroSection": {
+    "highlight": "KOL—Thương hiệu",
+    "title": "Kết nối",
+    "subtitle": "Tối ưu hiệu quả chiến dịch của bạn",
+    "description": "Tìm kiếm KOL phù hợp, đánh giá hiệu quả và hợp tác nhanh chóng trên cùng một nền tảng. Hàng trăm KOL ở đa dạng lĩnh vực luôn sẵn sàng đồng hành cùng thương hiệu của bạn.",
+    "register_kol": "Đăng ký làm KOL",
+    "find-kol": "Tìm KOL ngay",
+    "trusted_by": "Được 40+ khách hàng tin tưởng"
+  },
+  "Results": {
+    "connect_card": {
+      "title": "Kết nối nhanh chóng",
+      "description": "Tìm kiếm và lọc KOL theo ngành nghề, nền tảng và tệp khách hàng chỉ trong vài giây."
+    },
+    "generate_card": {
+      "title": "500M+",
+      "description": "Lượt xem được tạo ra"
+    },
+    "conversion_effectiveness_card": {
+      "title": "Tăng hiệu quả chuyển đổi",
+      "description": "Các KOL được đề xuất dựa trên dữ liệu phù hợp với sản phẩm của bạn, giúp tối ưu chi phí và kết quả."
+    },
+    "Social_card": {
+      "title": "Minh bạch & rõ ràng",
+      "description": "Thông tin KOL, báo giá, mức hiệu quả đều được công khai giúp thương hiệu dễ dàng lựa chọn."
+    },
+    "retention_rate_card": {
+      "title": "85%",
+      "description": "Tỷ lệ giữ chân khách hàng trung bình"
+    },
+    "campaign_card": {
+      "title": "Quản lý chiến dịch đơn giản",
+      "description": "Theo dõi tiến độ, trao đổi và phê duyệt nội dung ngay trên hệ thống."
+    }
+  },
+  "KOL": {
+    "title": "KOL Nổi Bật Trên Nền Tảng",
+    "description": "Duyệt danh sách KOL đa dạng ngành nghề.",
+    "more_kol": "Xem <count>2.268</count> KOL khác"
+  },
+  "Products": {
+    "title": "Sản Phẩm Tiêu Biểu",
+    "description": "Khám phá sản phẩm nổi bật, ưu đãi hấp dẫn, hoa hồng cao cho KOL/KOC.",
+    "more_product": "Xem <count>2.278</count> sản phẩm khác",
+    "product": {
+      "title": "Prada Galleria Saffiano leather",
+      "category": {
+        "fashion": "Thời trang",
+        "beauty": "Mỹ phẩm",
+        "electronics": "Điện tử"
+      },
+      "commission_rate": "% Hoa hồng"
+    }
+  },
+  "PlatformSection": {
+    "title": "Vô vàn sản phẩm và KOL trên nền tảng",
+    "description": "Tìm KOL, đánh giá và hợp tác nhanh chóng trên một nền tảng."
+  },
+  "ProcessSection": {
+    "title": "Quy Trình Hợp Tác",
+    "description": "Quy trình hợp tác minh bạch, rõ ràng và bài bản giúp KOL/KOC và thương hiệu đạt được hiệu quả tối ưu nhất.",
+    "toggle_kol": "Dành cho KOL/KOC",
+    "toggle_business": "Dành cho doanh nghiệp",
+    "steps": {
+      "kol": {
+        "step1": {
+          "title": "Xác định mục tiêu & chân dung KOL/KOC",
+          "details": {
+            "brand_clarify": "KOL cần nghiên cứu:",
+            "goals": "Tìm hiểu: giá trị thương hiệu, danh mục sản phẩm, đối tượng mục tiêu, mục tiêu chiến dịch...",
+            "kpi": "Xem xét: uy tín thương hiệu, các chiến dịch trước đó, phân tích đối thủ, vị thế thị trường...",
+            "kol_type": "Chuẩn bị: showcase portfolio, chỉ số engagement, mẫu phong cách nội dung, nhân khẩu học khán giả.",
+            "check": "Xác minh: tính xác thực thương hiệu, chất lượng sản phẩm, sự phù hợp chiến dịch với giá trị cá nhân.",
+            "output": "Kết quả: Hồ sơ và portfolio hoàn chỉnh sẵn sàng cho brand review."
+          }
+        },
+        "step2": {
+          "title": "Nhận Tiếp Cận",
+          "details": {
+            "brand_clarify": "KOL nhận được:",
+            "goals": "Nội dung brief: mục tiêu chiến dịch, thông tin sản phẩm, thông điệp chính, đối tượng mục tiêu...",
+            "kpi": "Yêu cầu: định dạng nội dung, lịch đăng bài, deliverables, quy trình phê duyệt, deadline...",
+            "kol_type": "Xem xét: điều khoản hợp tác, điều khoản độc quyền, quyền sử dụng, cấu trúc thanh toán.",
+            "check": "Đánh giá: sự phù hợp chiến dịch, tính khả thi timeline, yêu cầu nội dung, brand guidelines.",
+            "output": "Kết quả: Phản hồi ban đầu kèm câu hỏi và xác nhận khả dụng."
+          }
+        },
+        "step3": {
+          "title": "Báo Giá & Hợp Đồng",
+          "details": {
+            "brand_clarify": "KOL chuẩn bị báo giá:",
+            "goals": "Định giá: mức giá cơ bản, deliverables bổ sung, quyền sử dụng, phí độc quyền...",
+            "kpi": "Bao gồm: phân tích timeline, định dạng nội dung, số vòng chỉnh sửa, phí rush nếu có...",
+            "kol_type": "Đàm phán: điều khoản thanh toán, thanh toán theo milestone, chính sách hủy, quyền sở hữu nội dung.",
+            "check": "Làm rõ: quy trình phê duyệt, giới hạn chỉnh sửa, yêu cầu đăng bài, kỳ vọng hiệu suất.",
+            "output": "Kết quả: Báo giá cuối cùng và thỏa thuận hợp đồng đã ký."
+          }
+        },
+        "step4": {
+          "title": "Xây Dựng Kịch Bản",
+          "details": {
+            "brand_clarify": "KOL tạo nội dung:",
+            "goals": "Nội dung: tuân theo hướng dẫn brief, kết hợp thông điệp chính, showcase sản phẩm tự nhiên...",
+            "kpi": "Deliverables: bài đăng chính, stories, reels, hoặc các định dạng khác theo hợp đồng...",
+            "kol_type": "Quy trình: ý tưởng, quay phim, chỉnh sửa, viết caption, nghiên cứu hashtag.",
+            "check": "Xem xét: tuân thủ brand, rõ ràng thông điệp, chất lượng hình ảnh, tối ưu engagement.",
+            "output": "Kết quả: Nội dung draft sẵn sàng cho brand review và phê duyệt."
+          }
+        },
+        "step5": {
+          "title": "Sản Xuất & Chỉnh Sửa",
+          "details": {
+            "brand_clarify": "KOL review nội dung:",
+            "goals": "Kiểm tra chất lượng: sức hấp dẫn hình ảnh, độ chính xác thông điệp, tuân thủ brand guidelines...",
+            "kpi": "Tối ưu: captions, hashtags, thời gian đăng, engagement hooks, call-to-action...",
+            "kol_type": "Chỉnh sửa: điều chỉnh, đảm bảo tính xác thực, duy trì phong cách cá nhân.",
+            "check": "Xác minh: tất cả yêu cầu đã đáp ứng, không vi phạm brand guidelines, tiềm năng engagement tối ưu.",
+            "output": "Kết quả: Nội dung đã chỉnh sửa gửi để brand phê duyệt."
+          }
+        },
+        "step6": {
+          "title": "Đăng Tải",
+          "details": {
+            "brand_clarify": "KOL đăng tải:",
+            "goals": "Đăng bài: thời gian đã lên lịch, đúng platform, tag đúng cách, mention brand...",
+            "kpi": "Engagement: trả lời comments, chia sẻ trong stories, cross-post nếu yêu cầu...",
+            "kol_type": "Theo dõi: engagement ban đầu, comments, shares, saves, chỉ số reach.",
+            "check": "Đảm bảo: tất cả yêu cầu đăng bài đã đáp ứng, brand tags đúng, nội dung live đúng lịch.",
+            "output": "Kết quả: Nội dung đã đăng và live trên tất cả các platform được chỉ định."
+          }
+        },
+        "step7": {
+          "title": "Báo Cáo Kết Quả",
+          "details": {
+            "brand_clarify": "KOL biên soạn báo cáo:",
+            "goals": "Chỉ số: reach, impressions, tỷ lệ engagement, clicks, saves, shares...",
+            "kpi": "Phân tích: nhân khẩu học khán giả, thời gian engagement cao điểm, các yếu tố nội dung hiệu quả...",
+            "kol_type": "Tài liệu: screenshots, analytics platform, phân tích engagement, insights ROI.",
+            "check": "Xác minh: tất cả chỉ số chính xác, định dạng báo cáo đúng yêu cầu, insights đã cung cấp.",
+            "output": "Kết quả: Báo cáo hiệu suất hoàn chỉnh gửi đến brand."
+          }
+        }
+      },
+      "business": {
+        "step1": {
+          "title": "Xác Định KOL Mục Tiêu",
+          "details": {
+            "brand_clarify": "Doanh nghiệp cần xác định:",
+            "goals": "Mục tiêu chiến dịch: nhận diện thương hiệu, ra mắt sản phẩm, chuyển đổi bán hàng, thâm nhập thị trường...",
+            "kpi": "Chỉ số mục tiêu: reach, tỷ lệ engagement, tỷ lệ click-through, tỷ lệ chuyển đổi, ROI...",
+            "kol_type": "Lựa chọn: Macro KOL cho reach, Micro cho engagement, Nano cho tính xác thực, KOC cho reviews.",
+            "check": "Đánh giá: chất lượng follower, phong cách nội dung, tính xác thực engagement, khớp đối tượng, hiệu suất trước đó.",
+            "output": "Kết quả: Danh sách shortlist 3-10 KOL phù hợp với tiêu chí chiến dịch."
+          }
+        },
+        "step2": {
+          "title": "Gửi Brief",
+          "details": {
+            "brand_clarify": "Doanh nghiệp chuẩn bị brief:",
+            "goals": "Bao gồm: thông tin sản phẩm, mục tiêu chiến dịch, thông điệp chính, đối tượng mục tiêu, brand voice...",
+            "kpi": "Chỉ định: định dạng nội dung, lịch đăng bài, deliverables, quy trình phê duyệt, deadline...",
+            "kol_type": "Cung cấp: mẫu sản phẩm, brand guidelines, tài sản hình ảnh, tài liệu tham khảo, thông tin liên hệ.",
+            "check": "Xem xét: tính đầy đủ của brief, rõ ràng yêu cầu, kỳ vọng thực tế, tuân thủ brand.",
+            "output": "Kết quả: Tài liệu brief toàn diện gửi đến các KOL đã chọn để review."
+          }
+        },
+        "step3": {
+          "title": "Review Báo Giá & Ký Hợp Đồng",
+          "details": {
+            "brand_clarify": "Doanh nghiệp đánh giá báo giá:",
+            "goals": "So sánh: giá cả, deliverables, timeline, điều khoản độc quyền, quyền sử dụng...",
+            "kpi": "Đàm phán: cấu trúc thanh toán, thanh toán theo milestone, điều khoản hủy, quyền sở hữu nội dung...",
+            "kol_type": "Hoàn tất: điều khoản hợp đồng, quy trình phê duyệt, quy trình chỉnh sửa, kỳ vọng hiệu suất.",
+            "check": "Xác minh: khớp ngân sách, tuân thủ pháp lý, deliverables rõ ràng, lịch thanh toán.",
+            "output": "Kết quả: Hợp đồng đã ký với các KOL đã chọn, khởi động dự án."
+          }
+        },
+        "step4": {
+          "title": "Review Nội Dung Draft",
+          "details": {
+            "brand_clarify": "Doanh nghiệp review draft:",
+            "goals": "Đánh giá: tuân thủ brand guidelines, độ chính xác thông điệp, chất lượng hình ảnh, tiềm năng engagement...",
+            "kpi": "Kiểm tra: thông điệp chính đã bao gồm, sản phẩm được showcase đúng, call-to-action rõ ràng, hashtags phù hợp...",
+            "kol_type": "Cung cấp: phản hồi, yêu cầu chỉnh sửa, phê duyệt hoặc yêu cầu thay đổi.",
+            "check": "Đảm bảo: nội dung đáp ứng yêu cầu brief, tiêu chuẩn brand, tuân thủ pháp lý, tiêu chuẩn chất lượng.",
+            "output": "Kết quả: Nội dung đã phê duyệt sẵn sàng xuất bản hoặc yêu cầu chỉnh sửa đã gửi."
+          }
+        },
+        "step5": {
+          "title": "Phê Duyệt Nội Dung Cuối",
+          "details": {
+            "brand_clarify": "Doanh nghiệp hoàn tất phê duyệt:",
+            "goals": "Xác nhận: tất cả chỉnh sửa đã được giải quyết, brand guidelines đã tuân thủ, tiêu chuẩn chất lượng đã đáp ứng...",
+            "kpi": "Xác minh: lịch đăng bài đã xác nhận, yêu cầu platform đã đáp ứng, tagging và mentions đúng...",
+            "kol_type": "Phê duyệt: nội dung cuối, timeline đăng bài, chiến lược engagement, kế hoạch cross-posting.",
+            "check": "Kiểm tra cuối: clearance pháp lý, tuân thủ brand, độ chính xác thông điệp, chất lượng hình ảnh.",
+            "output": "Kết quả: Phê duyệt cuối đã được cấp, nội dung được clear để xuất bản."
+          }
+        },
+        "step6": {
+          "title": "Theo Dõi Đăng Tải",
+          "details": {
+            "brand_clarify": "Doanh nghiệp theo dõi đăng tải:",
+            "goals": "Theo dõi: thời gian đăng bài, sự hiện diện trên platform, độ chính xác tagging, engagement ban đầu...",
+            "kpi": "Theo dõi: chỉ số real-time, tỷ lệ engagement, reach, impressions, comments, shares...",
+            "kol_type": "Quan sát: phản ứng khán giả, sentiment, câu hỏi, phản hồi, mẫu engagement.",
+            "check": "Xác minh: tất cả yêu cầu đăng bài đã đáp ứng, brand mentions đúng, engagement như mong đợi.",
+            "output": "Kết quả: Nội dung đã live và đang hoạt động, dashboard theo dõi liên tục đang hoạt động."
+          }
+        },
+        "step7": {
+          "title": "Đo Lường Kết Quả & Thanh Toán",
+          "details": {
+            "brand_clarify": "Doanh nghiệp phân tích hiệu suất:",
+            "goals": "Đo lường: KPIs chiến dịch, ROI, tỷ lệ chuyển đổi, mức tăng nhận diện thương hiệu, tác động bán hàng...",
+            "kpi": "Phân tích: chỉ số engagement, insights khán giả, hiệu suất nội dung, phân tích platform...",
+            "kol_type": "Xử lý: thanh toán cuối, thưởng hiệu suất nếu có, đóng hợp đồng.",
+            "check": "Xác minh: tất cả deliverables đã hoàn thành, mục tiêu hiệu suất đã đạt, điều khoản thanh toán đã thực hiện.",
+            "output": "Kết quả: Báo cáo chiến dịch hoàn chỉnh, thanh toán cuối, duy trì mối quan hệ cho tương lai."
+          }
+        }
+      }
+    }
+  },
+  "Footer": {
+    "resources": {
+      "title": "Tài nguyên",
+      "home": "Trang chủ",
+      "kol_list": "Danh sách KOL",
+      "products": "Sản phẩm"
+    },
+    "developers": {
+      "title": "Nhà phát triển",
+      "github": "GitHub",
+      "docs": "Tài liệu",
+      "smart_contracts": "Hợp đồng thông minh"
+    },
+    "downloads": {
+      "title": "Tải xuống",
+      "portrait_mac": "Cho Mac",
+      "portrait_windows": "Cho Windows"
+    },
+    "platform": {
+      "title": "Nền tảng",
+      "x": "X.com",
+      "farcaster": "Farcaster",
+      "bluesky": "Bluesky",
+      "discord": "Discord"
+    },
+    "support": {
+      "title": "Hỗ trợ và Liên hệ",
+      "customer_care": "Chăm sóc khách hàng",
+      "complaints": "Khiếu nại 24/7",
+      "hotline": "Hot online"
+    },
+    "copyright": "© Bản quyền thuộc về ERA MEDIA 2025",
+    "system_status": "Trạng thái hệ thống",
+    "privacy": "Quyền riêng tư",
+    "terms": "Điều khoản"
+  }
+}
