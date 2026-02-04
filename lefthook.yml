@@ -1,0 +1,26 @@
+# Validate commit messages
+commit-msg:
+  commands:
+    commitlint:
+      run: npx --no -- commitlint --edit {1}
+
+# Validate content before committing
+pre-commit:
+  commands:
+    lint:
+      glob: '*'
+      run: npx --no -- eslint --fix --no-warn-ignored {staged_files}
+      stage_fixed: true
+      priority: 1
+    format:
+      glob: '*.{ts,tsx,js,jsx,json,css,md}'
+      run: npx --no -- eslint --fix --no-warn-ignored {staged_files}
+      stage_fixed: true
+      priority: 2
+    check-types:
+      glob: '*.{ts,tsx}'
+      run: npm run check:types
+      priority: 3
+    build:
+      run: npm run build
+      priority: 4
